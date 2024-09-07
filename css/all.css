@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: "Bruno Ace SC", sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  transition: 0.5s;
+}
+
+.header {
+  background-color: #000000;
+}
+.header .nav {
+  color: #d1d1d1;
+}
+.header .nav ul {
+  padding: 40px 0;
+}
+.header .nav ul a:hover {
+  opacity: 0.8;
+}
+.header .banner {
+  padding-top: 72px;
+  padding-bottom: 32px;
+}
+.header .banner-image {
+  height: 848px;
+}
+.header .banner-content {
+  color: #ffffff;
+  flex-direction: column;
+}
+.header .banner-content .btn {
+  margin-left: auto;
+}
+.header .banner .h1 {
+  color: #00ffa3;
+  margin-left: auto;
+}
+
+.main .introduction {
+  padding: 160px 0;
+}
+.main .introduction-content {
+  width: 526px;
+  color: #ffffff;
+}
+.main .aboutme {
+  color: #15161d;
+  padding: 160px 0;
+}
+.main .aboutme-list ol {
+  flex-wrap: wrap;
+}
+.main .aboutme-list li {
+  width: calc(50% - 12px);
+  padding: 16px;
+  border: 1px solid #e3e3e3;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.0784313725);
+}
+.main .aboutme-content {
+  width: 526px;
+}
+.main .aboutme-content .h3 {
+  color: #000000;
+}
+.main .contactme {
+  padding: 96px 0;
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+.main .contactme-content {
+  color: #ffffff;
+}
+.main .contactme-sns li {
+  border-radius: 40px;
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.0784313725);
+  transition: 0.5s;
+}
+.main .contactme-sns li:hover {
+  box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.8980392157);
+}
+.main .myprojects {
+  padding: 160px 0;
+}
+.main .myprojects .h3 {
+  width: 746px;
+  margin-left: auto;
+}
+.main .myprojects-content {
+  color: #15161d;
+}
+
+.footer {
+  background-color: #000000;
+  padding: 40px 0;
+}
+.footer p {
+  text-align: center;
+  color: #ffffff;
+}
+
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.btn {
+  border-radius: 32px;
+  padding: 12px 24px;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn-light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.btn-dark {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.jc-between {
+  justify-content: space-between;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.fd-column {
+  flex-direction: column;
+}
+
+.gap-4 {
+  gap: 16px;
+}
+
+.gap-5 {
+  gap: 20px;
+}
+
+.gap-6 {
+  gap: 24px;
+}
+
+.h1 {
+  font-size: 128px;
+}
+
+.h2 {
+  font-size: 64px;
+}
+
+.h3 {
+  font-size: 64px;
+}
+
+.fs-1 {
+  font-size: 32px;
+}
+
+.fs-2 {
+  font-size: 24px;
+}
+
+.fs-3 {
+  font-size: 20px;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.mb-1 {
+  margin-bottom: 4px;
+}
+
+.mb-4 {
+  margin-bottom: 16px;
+}
+
+.mb-7 {
+  margin-bottom: 28px;
+}
+
+.mb-8 {
+  margin-bottom: 32px;
+}
+
+.mb-9 {
+  margin-bottom: 36px;
+}
+
+.mr-4 {
+  margin-right: 16px;
+}
+
+.mr-6 {
+  margin-right: 24px;
+}/*# sourceMappingURL=all.css.map */
